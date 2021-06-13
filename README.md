@@ -1,16 +1,16 @@
 # Privacy Checklists
 
-![Privacy by Design applied image](./images/pbdapplied.png)
-
 Community driven best practice developer checklists to avoid making mistakes and being wrong.
 
-It is impossible to learn all of the ever increasing data laws in the world as technology becomes more and more regulated. Even if we could, we would not have enough time. But at the same time none of us want to make simple mistakes and be wrong. And we live in a high pressure world where we are asked to ship code faster and faster while the repurcussions of making mistakes are exponentially increasing.
+![Privacy by Design applied image](./images/pbdapplied.png)
+
+It is impossible to learn all of the ever increasing data laws in the world as technology becomes more and more regulated. But at the same time none of us want to make simple mistakes and be wrong. And we live in a high pressure world where we are asked to ship code faster and faster while the repurcussions of making mistakes are exponentially increasing.
 
 The Privacy Checklists project is part of [Data Protocol](https://dataprotocol.com) which enables developers build data products with confidence and without lawyers. Data Protocol is about empowering developers to lead and control their own domain, even when time is pressured.
 
-Privacy Checklists combines the concept of **Jobs To be Done** with the concept of **checklists**. When complicated domains are expected to execute at scale with the need for high quality results and minimum mistakes, it has been proven that checklists can dramatically change outcomes for the better. It also helps all involved to be feel better, to feel more in control, and to feel empowered in the moment.
+Privacy Checklists combines the concept of "**Jobs To be Done**" with the concept of "**Checklists**". When complicated domains need to execute at scale with the need for high quality results and minimum mistakes, checklists can dramatically change outcomes for the better, while increasing teamwork and cooperation.
 
-The project is licensed under the "[Creative Commons](./LICENSE") license and the checklist content is free to use for all. The checklists are submitted by experts in a JSON format to allow the content to be pulled and displayed with complete freedom. The Privacy Checklist project has built a presentation layer to convert the json files into best practice human readable checklists.
+The project is licensed under the "[Creative Commons](./LICENSE") license and the checklist content is free to use for all. The checklists are submitted by experts in a JSON format to allow the content to be pulled and displayed elsewhere with ease. The Privacy Checklist project has built a presentation layer to convert the json files into best practice human readable checklists.
 
 The goal of the project, combined with all other [Data Protocol](https://dataprotocol.com) initiatives, is to empower developers to have control in their own domain - writing software and building great products.
 
@@ -38,6 +38,12 @@ The researchers found that simply having doctors and nurses in an ICU create the
 
 ## Community Driven Developer Checklists for Jobs To Be Done
 
-Contributing a checklist is easy. A good checklist is not complicated, it should fit on one page, with between 5-9 items, which aligns with the natural limit of working memory in humans. The language should be familiar to the profession e.g. developer speak, developer jobs to be done, developer native.
+Contributing a checklist is easy. A good checklist is not complicated, it should fit on one page, with between 5-9 items, which aligns with the natural limit of working memory in humans. The language should be familiar to the profession e.g. developer speak, developer jobs to be done, developer natural.
 
 Follow the instructions in the [checklists-data](./checklists-data/README.md) directory on submitting a checklist for inclusion.
+
+## All Contributions Welcome
+
+The project welcomes all offers of help, on additional checklists, on new presentation tooling, on recommendations for wider ecosystem integration.
+
+Developers should not have to be lawyers to do their job, let's fix the problem at source and with building right from the start.
