@@ -23,9 +23,8 @@ Existing privacy advice and help is orientated around the concepts found in regu
 The implementation of simple checklists in complex domains has seen dramatic improvements in results and outcomes.
 
 > When checklists have been implemented for use by surgical teams, deaths dropped 40 percent.
-> You never fly in a plane when the pilot has not used a checklist
 
-Should you surf online when the same discipline is not in place? Recent privacy breaches suggest no and public sentiment is increasingly vocal in that direction.
+You never fly in a plane when the pilot has not used a checklist. Should you surf online when the same discipline is not in place? Recent privacy breaches suggest no and public sentiment is increasingly vocal in that direction.
 
 Mission critical, complex jobs and processes have implemented checklists and the outcomes have dramatically improved.
 
@@ -46,4 +45,4 @@ Follow the instructions in the [checklists-data](./checklists-data/README.md) di
 
 The project welcomes all offers of help, on additional checklists, on new presentation tooling, on recommendations for wider ecosystem integration.
 
-Developers should not have to be lawyers to do their job, let's fix the problem at source and with building right from the start.
+We developers should not have to be lawyers to do our job, but we should know what "good practice" looks like and always do it.
