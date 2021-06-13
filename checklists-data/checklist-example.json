@@ -1,0 +1,19 @@
+{
+  "title": "the title of the checklist",
+  "author": "the github user of the submitter",
+  "description": "a brief overview of the checklist",
+  "categories": ["a", "comma", "seperated", "list", "of", "associated", "categories"],
+  "references": [{ "title": "supporting link title", "url": "https://google.com" }],
+  "checklist-items": [
+    {
+      "slogan": "slogan of first checklist-item",
+      "description": "summary of the checklist item",
+      "references": [{ "title": "supporting link title", "url": "https://google.com" }]
+    },
+    {
+      "slogan": "slogan of first checklist-item",
+      "description": "summary of the checklist item",
+      "references": [{ "title": "supporting link title", "url": "https://google.com" }]
+    }
+  ]
+}

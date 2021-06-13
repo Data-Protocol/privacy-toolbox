@@ -1,0 +1,38 @@
+{
+  "name": "privacy-checklists",
+  "version": "1.0.0",
+  "description": "Community driven best practice checklists to avoid making mistakes and being wrong",
+  "main": "sdk/generate.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "generate": "cd sdk && node generate.js",
+    "clean": "cd sdk && node clean.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Data-Protocol/privacy-checklists.git"
+  },
+  "keywords": [
+    "GDPR",
+    "CCPA",
+    "privacy",
+    "compliance",
+    "checklists"
+  ],
+  "author": "Geoff Hollingworth <eusholli@gmail.com> (https://linkedin.com/in/geoffhollingworth)",
+  "license": "CREATIVE COMMONS",
+  "bugs": {
+    "url": "https://github.com/Data-Protocol/privacy-checklists/issues"
+  },
+  "homepage": "https://github.com/Data-Protocol/privacy-checklists#readme",
+  "devDependencies": {
+    "eslint": "7.8.1"
+  },
+  "dependencies": {
+    "mustache": "4.0.1",
+    "prompt-confirm": "2.0.4"
+  }
+}
