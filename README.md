@@ -60,7 +60,8 @@ Follow the instructions in the [checklists-data directory](/checklists-data/READ
 If you are passionate about Privacy Engineering, here are some additional resources you might enjoy.
 
 **THIS NEEDS COMPLETING**
-Read the first ever report on “[The State of Privacy Engineering](https://dataprotocol.com)”
-External link plug #1
-External link plug #2
-Review the growing range of Privacy training for Developers provided by [Data Protocol](https://dataprotocol.com).
+
+- Read the first ever report on “[The State of Privacy Engineering](https://dataprotocol.com)”
+- External link plug #1
+- External link plug #2
+- Review the growing range of Privacy training for Developers provided by [Data Protocol](https://dataprotocol.com).
