@@ -1,0 +1,41 @@
+# {{#title}}
+
+## Description
+
+{{#description}}
+
+## References
+
+{{#references}}
+1. {{#title}} - {{#url}}
+{{/references}}
+
+## Checklist
+
+{{#checklist-items}}
+
+### {{#slogan}}
+
+{{#description}}
+
+#### Further References
+{{#references}}
+1. {{#title}} - {{#url}}
+{{/references}}
+
+{{/checklist-items}}
+
+| Phase | Description | Principles | 
+| :---: | :---------- | :--------- |  
+{{#checklist-items}}
+{{#idea}}
+| {{when}} | {{slogan}} | {{#principles}}{{.}}, {{/principles}} |
+{{/idea}}
+{{#test}}
+| {{when}} | {{slogan}} | {{#principles}}{{.}}, {{/principles}} |
+{{/test}}
+{{#production}}
+| {{when}} | {{slogan}} | {{#principles}}{{.}}, {{/principles}} |
+{{/production}}
+{{/checklist-items}}
+

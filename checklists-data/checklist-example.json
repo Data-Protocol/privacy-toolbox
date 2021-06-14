@@ -1,4 +1,5 @@
 {
+  "checklist": true,
   "title": "the title of the checklist",
   "author": "the github user of the submitter",
   "description": "a brief overview of the checklist",

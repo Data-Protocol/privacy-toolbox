@@ -1,0 +1,50 @@
+{
+  "checklist": true,
+  "title": "Front-End Design Checklist",
+  "author": "eusholli",
+  "description": "This is the checklist a front-end developer should use when designing a new feature",
+  "categories": ["front-end", "feature"],
+  "references": [{ "title": "supporting link title", "url": "https://google.com" }],
+  "checklist-items": [
+    {
+      "slogan": "Can I reduce the data I am collecting",
+      "description": "Data minimization is the most powerful concept in data privacy since it reduces the data ever coming into the software and data that never comes in is the easiest to work with",
+      "references": [{ "title": "supporting link title", "url": "https://google.com" }]
+    },
+    {
+      "slogan": "Do I have legitimate use for all the data?",
+      "description": "There has to be legitimate reasons to collect data about people, you cannot just collect any data that you want",
+      "references": [{ "title": "Legitimate Use Explained", "url": "https://google.com" }]
+    },
+    {
+      "slogan": "Do I capture opt-in consent before use",
+      "description": "You must ask for the users consent to use their data before any collection and use. The consent must be opt-in, not opt-out",
+      "references": [{ "title": "Legitimate Use Explained", "url": "https://google.com" }]
+    },
+    {
+      "slogan": "Do I record consent for all the data before collection and use?",
+      "description": "You must have record all user consent for any PII (Personally Identifiable Information) data before use, to ensure you can easily prove consent was given",
+      "references": [{ "title": "Legitimate Use Explained", "url": "https://google.com" }]
+    },
+    {
+      "slogan": "Can the user easily withdraw consent if wanted?",
+      "description": "It must be possible for the user to easily withdraw consent at any time, this also must be recorded and the data must be able to be deleted",
+      "references": [{ "title": "Consent", "url": "https://google.com" }]
+    },
+    {
+      "slogan": "Can I securely provide the user a report of the data if they request?",
+      "description": "It must be possible to provide the user with a report on all the data you store about them and why",
+      "references": [{ "title": "Data Subject Access Request", "url": "https://google.com" }]
+    },
+    {
+      "slogan": "Can the user request an update to their data?",
+      "description": "The user can request to have the data updated if they believe it is wrong",
+      "references": [{ "title": "Data Update", "url": "https://google.com" }]
+    },
+    {
+      "slogan": "Can a user request to have all their data deleted?",
+      "description": "The user can request to have all their data deleted and it must be deleted from everywhere",
+      "references": [{ "title": "Data Update", "url": "https://google.com" }]
+    }
+  ]
+}
