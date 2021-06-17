@@ -1,49 +1,58 @@
-const { createFileMaps, createFiles, generateDefaultReadme } = require('./utilities');
+// index.js
+const Mustache = require('mustache');
+const fs = require('fs');
+const path = require('path');
 
-const { objectMap, globalMap } = createFileMaps();
+const DATA_DIR = './checklists-data/';
+const REPORT_DIR = './checklists/';
 
-createFiles(objectMap);
-createFiles(globalMap);
-generateDefaultReadme();
+function generateReports(jsonFiles) {
+  const checklistTemplate = `./templates/checklist.mustache`;
+  let reportList = [];
 
-/*
+  fs.readFile(checklistTemplate, (err, template) => {
+    if (err) throw err;
 
-function createGlobalFiles(templateJson) {
-  const globalTemplates = templateJson.templates.global;
-  for (let t = 0; t < globalTemplates.length; t++) {
-    const template = globalTemplates[t];
-    const { templateFile, target } = getGlobalFiles(template);
-
-    // const target = `./../DATA/${template}`;
-    if (!fs.existsSync(target)) {
-      // const templateFile = `./../templates/${template}`;
-      const templateJson = require(templateFile);
-      templateJson.completed = false;
-      fs.writeFileSync(target, JSON.stringify(templateJson, null, 2));
-      console.log(`${target} created`);
+    for (let i = 0; i < jsonFiles.length; i++) {
+      //      const jsonData = require (path.join(DATA_DIR, jsonFiles[i]));
+      fs.readFile(path.join(DATA_DIR, jsonFiles[i]), (err, jsonString) => {
+        if (err) throw err;
+        const jsonData = JSON.parse(jsonString);
+        const output = Mustache.render(template.toString(), jsonData);
+        fs.writeFileSync(`${path.join(REPORT_DIR, jsonFiles[i])}.md`, output);
+        reportList.push({
+          title: jsonData.title,
+          description: jsonData.description,
+          categories: jsonData.categories,
+          url: `${jsonFiles[i]}.md`,
+        });
+      });
     }
-  }
+    generateREADME({ checklists: reportList });
+  });
 }
 
-for (let i = 0; i < dataObjects.length; i++) {
-  const dataObject = dataObjects[i];
+function generateREADME(jsonReportList) {
+  const readmeTemplate = `./templates/README.mustache`;
+  const README_FILE = './checklists/README.md';
 
-  const name = dataObject.name.trim().replace(/ /g, '-');
-
-  const typeTemplates = dataObject.type;
-  for (let x = 0; x < typeTemplates.length; x++) {
-    const type = typeTemplates[x];
-    const { templateFile, target } = getObjectFiles(name, type);
-    const templateJson = require(templateFile);
-    createGlobalFiles(templateJson);
-    //const target = `./../DATA/${type}-${name}.json`;
-    if (!fs.existsSync(target)) {
-      //const templateFile = `./../templates/${type}-data-object.json`;
-      templateJson.name = dataObject.name;
-      templateJson.completed = false;
-      fs.writeFileSync(target, JSON.stringify(templateJson, null, 2));
-      console.log(`${target} created`);
-    }
-  }
+  fs.readFile(readmeTemplate, (err, template) => {
+    if (err) throw err;
+    const output = Mustache.render(template.toString(), jsonReportList);
+    fs.writeFileSync(README_FILE, output);
+  });
 }
-*/
+
+fs.readdir(DATA_DIR, function (err, files) {
+  //handling error
+  if (err) {
+    console.error('Unable to scan directory: ' + err);
+  }
+  const jsonFiles = files
+    .filter((file) => {
+      return file.endsWith('.json') && file !== 'categories.json';
+    })
+    .sort();
+
+  generateReports(jsonFiles);
+});

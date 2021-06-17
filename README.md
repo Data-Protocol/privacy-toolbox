@@ -11,6 +11,8 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 [cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
 [cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
 
+![don’t make mistakes, don’t be wrongfast easy checklists](images/beright.png)
+
 ## Introduction
 
 The impact of software engineering on the world has been transformational.There are 2.5 quintillion bytes of data created each day, and 90 percent of the data in the world was generated in the last two years ([Forbes](https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read/?sh=42543fe860ba)).
@@ -57,11 +59,8 @@ Follow the instructions in the [checklists-data directory](/checklists-data/READ
 
 ## Further Reading
 
-If you are passionate about Privacy Engineering, here are some additional resources you might enjoy.
+If you are passionate about privacy and data management, here are some additional resources you might enjoy.
 
-**THIS NEEDS COMPLETING**
-
-- Read the first ever report on “[The State of Privacy Engineering](https://dataprotocol.com)”
-- External link plug #1
-- External link plug #2
+- "DEVELOPERS CARE ABOUT PRIVACY MORE THAN THEIR EMPLOYERS" - New research from HarrisX and Data Protocol finds that more than 70% of developers believe privacy is an afterthought at their company. “[TEACH, TRAIN, & TRUST - A Study of Data Practices Among Developers](https://dataprotocol.com/data-privacy-report)”
+- Read "[Privacy by Design](https://www.manning.com/books/privacy-engineering)", the latest book by Data Protocol Advisory board member [Nishant Bhajaria](https://dataprotocol.com/advisory-board/nishant-bhajaria). Learn how Nishant has implemented privacy engineering for real at companies such as Nike, Netflex, Google and Uber.
 - Review the growing range of Privacy training for Developers provided by [Data Protocol](https://dataprotocol.com).

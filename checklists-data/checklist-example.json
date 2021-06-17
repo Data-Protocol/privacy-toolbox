@@ -1,20 +1,23 @@
 {
   "checklist": true,
-  "title": "the title of the checklist",
+  "title": "Example Checklist Title",
   "author": "the github user of the submitter",
-  "description": "a brief overview of the checklist",
-  "categories": ["a", "comma", "seperated", "list", "of", "associated", "categories"],
-  "references": [{ "title": "supporting link title", "url": "https://google.com" }],
+  "description": "What is the checklist for",
+  "categories": ["a", "comma", "seperated", "list", "of", "categories"],
+  "references": [{ "title": "Checklist Backround", "url": "https://google.com" }],
   "checklist-items": [
     {
-      "slogan": "slogan of first checklist-item",
-      "description": "summary of the checklist item",
-      "references": [{ "title": "supporting link title", "url": "https://google.com" }]
+      "slogan": "Check that you have done this",
+      "description": "What is good to know",
+      "references": [
+        { "title": "Supporting Tool One", "url": "https://google.com" },
+        { "title": "Supporting Tool Two", "url": "https://google.com" }
+      ]
     },
     {
-      "slogan": "slogan of first checklist-item",
-      "description": "summary of the checklist item",
-      "references": [{ "title": "supporting link title", "url": "https://google.com" }]
+      "slogan": "Check that you have then done this",
+      "description": "What is good to know here",
+      "references": [{ "title": "Supporting tool here", "url": "https://google.com" }]
     }
   ]
 }

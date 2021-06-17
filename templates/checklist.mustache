@@ -1,41 +1,22 @@
-# {{#title}}
+# {{title}}
 
-## Description
+{{description}}
 
-{{#description}}
+Tags: {{#categories}}[{{.}}] {{/categories}}
 
-## References
+## General Tools
 
+| Name | Link | 
+| :--- | :--------- |
 {{#references}}
-1. {{#title}} - {{#url}}
+| {{title}} | [{{url}}](./{{url}}) |
 {{/references}}
 
 ## Checklist
 
+| Check | Headline | Description | Tools |
+| :---:|:--- | :--------- | :--------| 
 {{#checklist-items}}
-
-### {{#slogan}}
-
-{{#description}}
-
-#### Further References
-{{#references}}
-1. {{#title}} - {{#url}}
-{{/references}}
-
-{{/checklist-items}}
-
-| Phase | Description | Principles | 
-| :---: | :---------- | :--------- |  
-{{#checklist-items}}
-{{#idea}}
-| {{when}} | {{slogan}} | {{#principles}}{{.}}, {{/principles}} |
-{{/idea}}
-{{#test}}
-| {{when}} | {{slogan}} | {{#principles}}{{.}}, {{/principles}} |
-{{/test}}
-{{#production}}
-| {{when}} | {{slogan}} | {{#principles}}{{.}}, {{/principles}} |
-{{/production}}
+| []| {{slogan}} | {{description}} | {{#references}}[{{title}}]({{&url}}) {{/references}}|
 {{/checklist-items}}
 
