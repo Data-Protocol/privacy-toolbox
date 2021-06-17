@@ -1,9 +1,6 @@
 # Privacy Checklists
 
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
-[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
-
-Community driven best practice developer checklists to avoid making mistakes and being wrong.
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
 
@@ -15,7 +12,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 
 ## Introduction
 
-The impact of software engineering on the world has been transformational.There are 2.5 quintillion bytes of data created each day, and 90 percent of the data in the world was generated in the last two years ([Forbes](https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read/?sh=42543fe860ba)).
+This is a community driven project to create the best developer checklists to avoid making mistakes and being wrong. The impact of software engineering on the world has been transformational.There are 2.5 quintillion bytes of data created each day, and 90 percent of the data in the world was generated in the last two years ([Forbes](https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read/?sh=42543fe860ba)).
 
 Now that so many of people's daily lives are touched in some way by technology, there is a growing call to better regulate the industry, to protect personal data and empower individuals in the management of their personal data.
 
