@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 const DATA_DIR = './checklists-data/';
-const REPORT_DIR = './checklists/';
+const REPORT_DIR = './docs/';
 
 function generateReports(jsonFiles) {
   const checklistTemplate = `./templates/checklist.mustache`;
@@ -24,17 +24,19 @@ function generateReports(jsonFiles) {
           title: jsonData.title,
           description: jsonData.description,
           categories: jsonData.categories,
-          url: `${jsonFiles[i]}.md`,
+          url: `${REPORT_DIR + jsonFiles[i]}.md`,
         });
+        if (i === jsonFiles.length - 1) {
+          generateREADME({ checklists: reportList });
+        }
       });
     }
-    generateREADME({ checklists: reportList });
   });
 }
 
 function generateREADME(jsonReportList) {
   const readmeTemplate = `./templates/README.mustache`;
-  const README_FILE = './checklists/README.md';
+  const README_FILE = './README.md';
 
   fs.readFile(readmeTemplate, (err, template) => {
     if (err) throw err;

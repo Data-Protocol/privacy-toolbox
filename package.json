@@ -1,5 +1,5 @@
 {
-  "name": "privacy-checklists",
+  "name": "privacy-toolbox",
   "version": "1.0.0",
   "description": "Community driven best practice checklists to avoid making mistakes and being wrong",
   "main": "sdk/generate.js",
@@ -7,13 +7,12 @@
     "doc": "docs"
   },
   "scripts": {
-    "generate": "node sdk/generate.js",
-    "clean": "cd sdk && node clean.js",
+    "gen-checklists": "cd checklists && node sdk/generate.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Data-Protocol/privacy-checklists.git"
+    "url": "git+https://github.com/Data-Protocol/privacy-toolbox.git"
   },
   "keywords": [
     "GDPR",
@@ -25,9 +24,9 @@
   "author": "Geoff Hollingworth <eusholli@gmail.com> (https://linkedin.com/in/geoffhollingworth)",
   "license": "CREATIVE COMMONS",
   "bugs": {
-    "url": "https://github.com/Data-Protocol/privacy-checklists/issues"
+    "url": "https://github.com/Data-Protocol/privacy-toolbox/issues"
   },
-  "homepage": "https://github.com/Data-Protocol/privacy-checklists#readme",
+  "homepage": "https://github.com/Data-Protocol/privacy-toolbox#readme",
   "devDependencies": {
     "eslint": "7.8.1"
   },
