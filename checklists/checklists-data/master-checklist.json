@@ -2,7 +2,7 @@
   "checklist": true,
   "title": "Master Checklist",
   "author": "the github user of the submitter",
-  "description": "**Do these 6 things well and you will be 80% ok with data privacy**. This is inspired by the UK's data protection authority (ICO) initial help for small businesses guide.  We translate to be applicable for app developers",
+  "description": "**Do these 6 things well and you will be 80% ok with data privacy**. This is inspired by the UK's data protection authority (ICO) initial help for small businesses guide and contains recommended best practice regardless of geography. We translate it to be more applicable for software developers.",
   "categories": ["beginner", "greenfield"],
   "checklist-items": [
     {

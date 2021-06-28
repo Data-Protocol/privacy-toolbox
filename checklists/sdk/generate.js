@@ -18,6 +18,7 @@ function generateReports(jsonFiles) {
       fs.readFile(path.join(DATA_DIR, jsonFiles[i]), (err, jsonString) => {
         if (err) throw err;
         const jsonData = JSON.parse(jsonString);
+        jsonData.src = `${DATA_DIR + jsonFiles[i]}`;
         const checklistItems = jsonData['checklist-items'];
         for (let cnt = 0; cnt < checklistItems.length; cnt++) {
           checklistItems[cnt].checklistID = cnt + 1;
