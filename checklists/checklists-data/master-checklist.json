@@ -1,0 +1,66 @@
+{
+  "checklist": true,
+  "title": "Master Checklist",
+  "author": "the github user of the submitter",
+  "description": "**Do these 4 things well and you will be 80% ok with data privacy**. This is inspired by the UK's data protection authority (ICO) initial help for small businesses guide.  We translate to be applicable for app developers",
+  "categories": ["beginner", "greenfield"],
+  "checklist-items": [
+    {
+      "slogan": "Do you know what data you are collecting and keeping?",
+      "description": "You need to know what data you have, where you are getting it from, who you are giving it to, and where you  are storing it.  This is called data mapping.  The best data to have is no data, unless you actually need it, need to keep it after initial use. Delete data you no longer need.",
+      "references": [
+        {
+          "title": "GDPR Data Mapping Template",
+          "url": "https://medium.com/@Ideea/gdpr-data-map-template-31da34ca39d0"
+        }
+      ]
+    },
+    {
+      "slogan": "Are you using the data for reasons your customers know, that are in their best interests?",
+      "description": "Are you using data for the good of your customers? Are you sure you have their best interests at heart with everything you are doing? Would your mum agree? All personal data collected collected and used must be for legitimate and disclosed/consented reasons. If you have any doubts use the supporting tool",
+      "references": [
+        {
+          "title": "Lawful Basis Checker",
+          "url": "https://ico.org.uk/for-organisations/gdpr-resources/lawful-basis-interactive-guidance-tool/"
+        }
+      ]
+    },
+    {
+      "slogan": "Are you keeping your customers data safe while you have it?",
+      "description": "Are you implementing best practice security practices while you have your customer's sensitive data?  Remember the safest data is the data you never collect, the data you immediately delete after use, the data you anonymize as quickly as possible.",
+      "references": [
+        {
+          "title": "15 Application Security Best Practices",
+          "url": "https://snyk.io/learn/application-security-best-practices/"
+        }
+      ]
+    },
+    {
+      "slogan": "Are you being completely transparent with your customers about how you use their data?",
+      "description": "To build trust it’s essential to explain to people why you hold their data, what you'll do with it, and how long you'll keep it before getting rid of it. Clearly state this in your privacy policy that is easy to find, read and understand",
+      "references": [
+        {
+          "title": "Privacy Notice Template (UK)",
+          "url": "https://ico.org.uk/for-organisations/make-your-own-privacy-notice/"
+        }
+      ]
+    },
+    {
+      "slogan": "Can customers see the data you have about them and update it, request deletion?",
+      "description": "Your customers have the right to see and control all the data you have about them, and to also withdraw consent of use and request deletion. These are known as Data Subject Access Requests (DSARs) and have strict penalties if responses are too slow. Implement this control as quickly as possible",
+      "references": [
+        { "title": "Example Open Source implementation", "url": "https://databunker.org/" }
+      ]
+    },
+    {
+      "slogan": "Are you prepared if something goes wrong?",
+      "description": "Be ready to know what you will do, if you do lose people's data.  The worse time to plan is in the crisis.  Prepare a incident response plan in advance",
+      "references": [
+        {
+          "title": "How to respond to a personal data breach",
+          "url": "https://ico.org.uk/for-organisations/sme-web-hub/72-hours-how-to-respond-to-a-personal-data-breach/"
+        }
+      ]
+    }
+  ]
+}
