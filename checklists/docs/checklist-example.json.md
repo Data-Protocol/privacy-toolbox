@@ -14,6 +14,6 @@ Tags: [a] [comma] [seperated] [list] [of] [categories]
 
 | Check | Headline | Description | Tools |
 | :---:|:--- | :--------- | :--------| 
-| []| Check that you have done this | What is good to know | [Supporting Tool One](https://google.com) [Supporting Tool Two](https://google.com) |
-| []| Check that you have then done this | What is good to know here | [Supporting tool here](https://google.com) |
+| 1| Check that you have done this | What is good to know | [Supporting Tool One](https://google.com) [Supporting Tool Two](https://google.com) |
+| 2| Check that you have then done this | What is good to know here | [Supporting tool here](https://google.com) |
 

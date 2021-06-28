@@ -8,6 +8,8 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 [cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
 [cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
 
+Start quickly here - ["Master Checklist"](./checklists/docs/master-checklist.json.md)
+
 ## Developers Care About Privacy More Than Their Employers
 
 New research finds that more than 70% of developers believe privacy is an afterthought at their company so let's take control and solve the problem. Full research [here](https://dataprotocol.com/data-privacy-report)

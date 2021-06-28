@@ -18,6 +18,11 @@ function generateReports(jsonFiles) {
       fs.readFile(path.join(DATA_DIR, jsonFiles[i]), (err, jsonString) => {
         if (err) throw err;
         const jsonData = JSON.parse(jsonString);
+        const checklistItems = jsonData['checklist-items'];
+        for (let cnt = 0; cnt < checklistItems.length; cnt++) {
+          checklistItems[cnt].checklistID = cnt + 1;
+        }
+
         const output = Mustache.render(template.toString(), jsonData);
         fs.writeFileSync(`${path.join(REPORT_DIR, jsonFiles[i])}.md`, output);
         reportList.push({
