@@ -1,6 +1,6 @@
 # Master Checklist
 
-**Do these 6 things well and you will be 80% ok with data privacy**. This is inspired by the UK&#39;s data protection authority (ICO) initial help for small businesses guide.  We translate to be applicable for app developers
+**Do these 6 things well and you will be 80% ok with data privacy**. This is inspired by the UK&#39;s data protection authority (ICO) initial help for small businesses guide and contains recommended best practice regardless of geography. We translate it to be more applicable for software developers.
 
 Tags: [beginner] [greenfield] 
 
